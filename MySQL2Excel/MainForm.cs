@@ -190,10 +190,9 @@ namespace MySQL2Excel
                     }
 
                     importExcelToMySQL(dataFile);
-                    MessageBox.Show(dataFile + " Completed");
+                    
                 }
-
-                
+                MessageBox.Show("Import process completed");
             }
 
         }
