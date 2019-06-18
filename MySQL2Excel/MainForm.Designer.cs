@@ -43,7 +43,7 @@
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(159, 37);
             this.btnGenerate.TabIndex = 0;
-            this.btnGenerate.Text = "Export to Excel";
+            this.btnGenerate.Text = "Download to Excel";
             this.btnGenerate.UseVisualStyleBackColor = true;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
@@ -72,6 +72,7 @@
             this.btnImportExcel.TabIndex = 0;
             this.btnImportExcel.Text = "Import from Excel";
             this.btnImportExcel.UseVisualStyleBackColor = true;
+            this.btnImportExcel.Visible = false;
             this.btnImportExcel.Click += new System.EventHandler(this.btnImportExcel_Click);
             // 
             // folderBrowserDialog
@@ -90,7 +91,7 @@
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Excel Import Export";
+            this.Text = "MySQL to Excel";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();

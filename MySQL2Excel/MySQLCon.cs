@@ -8,6 +8,6 @@ namespace MySQL2Excel
 {
     class MySQLCon
     {
-        public string connectionString = @"server=localhost;userid=root;password=123456;database=crispsyscom_annamalais";
+        public string connectionString = @"server=localhost;userid=root;password=123456;database=crispsyscom_annamalais;Connect Timeout=900";
     }
 }
